@@ -1,0 +1,8 @@
+HBox {
+	-fx-background-color: #ddd;
+}
+
+Button {
+    -fx-padding: 15px 7px 15px 7px;
+    -fx-background-radius: 0;
+}

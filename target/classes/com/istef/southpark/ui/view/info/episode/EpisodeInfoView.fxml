@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.istef.southpark.ui.view.info.episode.EpisodeInfoView">
+   <children>
+      <ScrollPane fitToHeight="true" fitToWidth="true" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="900.0" stylesheets="@/css/RightPaneStyle.css">
+         <content>
+            <VBox prefWidth="300.0">
+               <children>
+                  <Label fx:id="titleLabel" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" styleClass="header-1" text="Title label" />
+                  <Region minHeight="-Infinity" opacity="0.5" prefHeight="1.0" styleClass="line" />
+                  <ImageView fx:id="episodeImageView" pickOnBounds="true" preserveRatio="true">
+                     <effect>
+                        <DropShadow />
+                     </effect>
+                     <VBox.margin>
+                        <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                     </VBox.margin>
+                  </ImageView>
+                  <Label fx:id="descriptionLabel" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis risus porta, convallis justo ac, faucibus enim. Aenean mollis, enim quis feugiat fringilla, diam tellus tincidunt lacus, in luctus justo massa eu ligula. Quisque in diam sit amet risus pulvinar tristique a ac ante. Mauris vitae nibh id dolor malesuada." wrapText="true" />
+                  <Region minHeight="-Infinity" opacity="0.5" prefHeight="1.0" styleClass="line">
+                     <VBox.margin>
+                        <Insets bottom="20.0" top="20.0" />
+                     </VBox.margin>
+                  </Region>
+                  <Label styleClass="small-pad-bottom" text="Season:" />
+                  <Label fx:id="seasonLabel" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" styleClass="small-pad-top" text="23" />
+                  <Label styleClass="small-pad" text="Episode:" />
+                  <Label fx:id="episodeLabel" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" styleClass="small-pad-top" text="01" />
+                  <Label styleClass="small-pad" text="Pub Date:" />
+                  <Label fx:id="pubDateLabel" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" styleClass="small-pad-top" text="23.03.29999" />
+                  <Label styleClass="small-pad" text="Duration:" />
+                  <Label fx:id="durationLabel" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" styleClass="small-pad" text="5000" />
+               </children>
+               <padding>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </padding>
+            </VBox>
+         </content>
+      </ScrollPane>
+      <HBox spacing="10.0">
+         <children>
+            <ComboBox fx:id="resolutionComboBox" prefWidth="150.0" />
+            <Button fx:id="downloadButton" mnemonicParsing="false" onAction="#onDownloadAction" text="Download" />
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </HBox>
+   </children>
+</VBox>

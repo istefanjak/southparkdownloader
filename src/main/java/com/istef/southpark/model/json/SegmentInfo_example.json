@@ -1,0 +1,41 @@
+{"package": {
+  "version": "1.7.1",
+  "video": {
+    "item": [
+      {
+        "origination_date": "02-27-2020 03:13:14",
+        "rendition": [
+          {
+            "cdn": "level3",
+            "method": "hls",
+            "duration": "564",
+            "type": "application/x-mpegURL",
+            "src": "https://dlvrsvc.mtvnservices.com/api/gen/gsp.comedystor/com/sp/season-23/2309/acts/0/,stream_512x288_446756_2204853579,stream_1920x1080_2379976_199487483,stream_640x360_592308_4263941135,stream_1280x720_1205998_1548946467,stream_960x540_991198_3953836145,stream_384x216_346995_1695759655,stream_768x432_742850_679960736/master.m3u8?account=southparkstudios.com&cdn=level3&tk=st=1582791134~exp=1582877534~acl=/api/gen/gsp.comedystor/com/sp/season-23/2309/acts/0/*~hmac=1589c765109676e3b1fe71c21eb31cd28f0d056f86862e0021ef584d1ad280a5",
+            "rdcount": "7"
+          }
+        ],
+        "transcript": [
+          {
+            "kind": "captions",
+            "srclang": "en",
+            "label": "English",
+            "typographic": [
+              {
+                "format": "cea-608",
+                "src": "https://akadl-a.akamaihd.net/9950/mtvnorigin/gsp.comedystor/com/sp/season-23/2309/acts/COMEDYCENTRAL_SOUTHPARK_2309_ACT01_UNBEEPED.scc"
+              },
+              {
+                "format": "ttml",
+                "src": "https://akadl-a.akamaihd.net/9950/mtvnorigin/gsp.comedystor/com/sp/season-23/2309/acts/COMEDYCENTRAL_SOUTHPARK_2309_ACT01_UNBEEPED.dfxp.xml"
+              },
+              {
+                "format": "vtt",
+                "src": "https://vs-tools.mtvnservices.com/caption/convert?mgid=mgid:file:gsp:comedystor:/com/sp/season-23/2309/acts/COMEDYCENTRAL_SOUTHPARK_2309_ACT01_UNBEEPED.dfxp.xml&accountName=southparkstudios.com"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}}

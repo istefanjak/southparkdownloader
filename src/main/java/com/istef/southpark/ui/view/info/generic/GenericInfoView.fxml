@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+
+<ScrollPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" stylesheets="@/css/RightPaneStyle.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.istef.southpark.ui.view.info.generic.GenericInfoView">
+   <content>
+      <VBox prefHeight="300.0" prefWidth="400.0">
+         <children>
+            <Label fx:id="titleLabel" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" styleClass="header-1" text="Title label" />
+            <Region minHeight="-Infinity" opacity="0.5" prefHeight="1.0" styleClass="line">
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+            </Region>
+            <Label fx:id="descriptionLabel" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis risus porta, convallis justo ac, faucibus enim. Aenean mollis, enim quis feugiat fringilla, diam tellus tincidunt lacus, in luctus justo massa eu ligula. Quisque in diam sit amet risus pulvinar tristique a ac ante. Mauris vitae nibh id dolor malesuada." wrapText="true" />
+         </children>
+         <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </padding>
+      </VBox>
+   </content>
+</ScrollPane>

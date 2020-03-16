@@ -1,0 +1,7 @@
+tmp/*
+!tmp/.gitkeep
+repo/*
+!repo/.gitkeep
+log/*
+!log/.gitkeep
+main.properties

@@ -1,0 +1,15 @@
+.titled-pane>.title {
+	-fx-background-color: -fx-box-border, -fx-inner-border, -fx-body-color;
+	-fx-background-insets: 0, 1, 2;
+	-fx-background-radius: 0;
+	-fx-padding: 5pt;
+}
+
+.titled-pane > .content > * {
+    -fx-padding: 0px;
+}
+
+.split-pane > .split-pane-divider {  
+    -fx-padding: 0 1px 0 0;
+    -fx-background-color: #ddd;
+} 
