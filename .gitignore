@@ -5,3 +5,4 @@ repo/*
 log/*
 !log/.gitkeep
 main.properties
+/target/
