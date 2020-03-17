@@ -11,7 +11,7 @@ A simple to use GUI application for downloading episodes from South Park website
 
 ### Windows (64 bit)
 
-* Download and extract the build from [here](http://bit.ly/3bcBaWT).
+* Download and extract the build from [here](http://bit.ly/2QpRivZ).
 * Make sure you downloaded [JDK 13](https://jdk.java.net/13/), extracted it to a known location and added the `/bin` folder to the environment variables System path (remove earlier versions of Java from system path if needed). To check if installed successfully run `java -version` in cmd.
 * Inside root of the build run command `java -jar spd2.jar` or double click on `run.vbs`
 
